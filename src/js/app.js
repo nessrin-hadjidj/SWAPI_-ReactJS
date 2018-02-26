@@ -33,16 +33,6 @@ export default class Swapi extends Component {
 
         return 'rgb(' + r + ', ' + g + ', ' + b + ')';
     }
-
-    // handleName(str) {
-    //     const names = [];
-
-    //     for(let name of str.split(' ')) {
-    //         names.push(name[0].toUpperCase());
-    //     }
-
-    //     return names.join(' ');
-    // }
     
     render() {
         return(
